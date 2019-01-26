@@ -240,7 +240,6 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Food\Food.cs" />
     <Compile Include="Assets\Script\Food\FoodSpawn.cs" />
-    <Compile Include="Assets\Script\Player1\ColdProgressBar.cs" />
     <Compile Include="Assets\Script\Player1\Player.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
