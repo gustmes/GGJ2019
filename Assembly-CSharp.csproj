@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Player1\ColdProgressBar.cs" />
+     <Compile Include="Assets\Script\Player1\FoodBar.cs" />
      <Compile Include="Assets\Script\Player1\Player1.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
