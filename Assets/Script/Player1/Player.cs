@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player1 : MonoBehaviour {
+public class Player : MonoBehaviour {
 
 	public float speed;
 	private Rigidbody2D rigidBody;
@@ -25,4 +25,9 @@ public class Player1 : MonoBehaviour {
 	void FixedUpdate(){
 		rigidBody.MovePosition(rigidBody.position + moveVelocity * Time.fixedDeltaTime);
 	}
+
+    public void ConsumeFood()
+    {
+        Debug.Log("Food consumed!");
+    }
 }
